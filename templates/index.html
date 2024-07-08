@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>New Sum</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            text-align: center;
+        }
+        input[type="text"], button[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        button[type="submit"] {
+            width: auto; /* 버튼의 너비를 자동으로 설정 */
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="logo">
+            <img src="https://i.postimg.cc/XJgDkSp4/New-Sum-Logo-1.png" alt="logo" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="search-box">
+            <form id="searchForm" action="/search" method="post">
+                <input type="text" name="keyword" id="keyword" placeholder="지금 관심있는 키워드를 검색해보세요">
+                <button type="submit">검색</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
